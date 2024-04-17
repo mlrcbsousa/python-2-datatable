@@ -1,5 +1,6 @@
 from load_csv import load
 
+
 def main():
     """
     Main function to test the load function.
