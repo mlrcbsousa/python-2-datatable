@@ -55,7 +55,7 @@ def plot_population(df: pd.DataFrame, country1: str, country2: str):
 
         # Plot
         max_pop: float = max(max(pop_country1), max(pop_country2))
-        pop_range = range(int(max_pop // 20) + 1) # floor division
+        pop_range = range(int(max_pop // 20) + 1)  # floor division
 
         plt.plot(years, pop_country1, label=country1)
         plt.plot(years, pop_country2, label=country2)
